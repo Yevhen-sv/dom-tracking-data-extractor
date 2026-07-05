@@ -22,6 +22,32 @@ The selectors are specific to this page structure, so they are not universal.
 
 On another ecommerce website, the extraction layer would need to be adapted, but the general pipeline architecture would remain reusable.
 
+
+---
+
+## How to Use
+
+1. Open the training page:  
+   https://webscraper.io/test-sites/e-commerce/allinone/computers/laptops
+
+2. Open Chrome DevTools.
+
+3. Go to the Console tab.
+
+4. Copy the code from `script.js`.
+
+5. Paste the script into the Console and run it.
+
+6. Check the console output:
+   - `processingSummary`
+   - `dataLayerItems`
+   - `dataLayerEvent`
+   - `qaReport`
+   - `summaryReport`
+   - `consistencyChecks`
+
+The script is designed to run directly in the browser console on the webscraper.io laptop listing page.
+
 ---
 
 ## What the Script Does
